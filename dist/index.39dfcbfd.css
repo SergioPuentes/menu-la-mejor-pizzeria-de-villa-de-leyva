@@ -21,13 +21,13 @@ body {
 
 section {
   width: 100%;
+  background-color: #fff;
   justify-content: center;
   display: flex;
 }
 
 .welcome {
   height: 100vh;
-  background-color: #fff;
   place-content: center;
   place-items: center;
   display: grid;
@@ -45,17 +45,35 @@ section {
   font-weight: 700;
 }
 
+.pan-arriba {
+  width: 100%;
+  max-width: 100rem;
+  background-color: #ffb325;
+  border-radius: 10rem;
+  flex-direction: column;
+  display: flex;
+}
+
+.pan-arriba img {
+  margin: 4rem auto 0;
+}
+
+.pan-arriba a {
+  margin: 0 auto;
+}
+
 .title-span {
   text-align: center;
 }
 
 .welcome a {
   width: 10rem;
-  color: #c48200;
+  color: #070500;
   text-align: center;
-  border: 3px solid #c48200;
+  border: 3px solid #000;
   border-radius: 8px;
   margin-top: 3rem;
+  margin-bottom: 4rem;
   padding: .7rem;
   font-size: 2.5rem;
   font-weight: 700;
@@ -120,19 +138,42 @@ section {
 
 .menu {
   width: 70%;
-  max-width: 60rem;
-  grid-template-columns: repeat(auto-fill, 10rem);
+  max-width: 90rem;
+  grid-template-columns: repeat(auto-fill, 18rem);
   place-content: center;
-  gap: 3rem;
+  gap: 5rem;
   margin-top: 5rem;
+  margin-bottom: 12rem;
   display: grid;
 }
 
+.update {
+  width: 100%;
+  text-align: center;
+}
+
+.lechuga {
+  text-align: center;
+  width: 90%;
+  max-width: 90rem;
+  background-color: #4cda4c;
+  border-radius: 2rem;
+  margin-top: 0;
+}
+
+.lechuga h3 {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
 .item {
-  width: 10rem;
-  height: 10rem;
+  height: 8rem;
   color: #000;
+  width: 18rem;
+  background-color: #af0000;
+  border-radius: 8rem;
   place-content: center;
+  margin: 0 auto;
   font-family: Satisfy, cursive;
   font-size: 2.2rem;
   display: grid;
@@ -168,7 +209,7 @@ section {
 .menu-selected {
   width: 90%;
   max-width: 90rem;
-  background-image: linear-gradient(100deg, #ffc451 0%, #42272e 100%);
+  background-image: linear-gradient(100deg, #79633a 0%, #5f4e2b 100%);
   border-radius: 32px;
   place-self: center;
   margin-top: 3rem;
@@ -194,6 +235,13 @@ section {
   font-size: 1.8rem;
 }
 
+.queso {
+  max-width: 80rem;
+  width: 85%;
+  background-color: #ffb82a;
+  border-radius: 1rem;
+}
+
 .close-icon {
   width: 100%;
   justify-content: flex-end;
@@ -212,17 +260,23 @@ section {
 }
 
 .footer {
-  clip-path: polygon(0 100px, 100% 0, 100% 100%, 0 100%);
-  background-color: #42272e;
-  background-image: linear-gradient(100deg, #6e6022 0%, #42272e 100%);
   padding-top: 10rem;
 }
 
 .container-footer {
+  width: 90%;
+  max-width: 90rem;
+  background-color: #ffb325;
+  border-radius: 8rem;
   justify-content: center;
   gap: 3rem;
   margin-bottom: 7rem;
   display: flex;
+}
+
+.social-media {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 button {

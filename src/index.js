@@ -28,42 +28,6 @@ button4.addEventListener('click', async ()=>{
     await router()
     await scroll()
 })
-let button5 = document.getElementById("bmenu-selected5") 
-button5.addEventListener('click', async ()=>{
-    await elegir("5")
-    await router()
-    await scroll()
-})
-let button6 = document.getElementById("bmenu-selected6") 
-button6.addEventListener('click', async ()=>{
-    await elegir("6")
-    await router()
-    await scroll()
-})
-let button7 = document.getElementById("bmenu-selected7") 
-button7.addEventListener('click', async ()=>{
-    await elegir("7")
-    await router()
-    await scroll()
-})
-let button8 = document.getElementById("bmenu-selected8") 
-button8.addEventListener('click', async ()=>{
-    await elegir("8")
-    await router()
-    await scroll()
-})
-let button9 = document.getElementById("bmenu-selected9") 
-button9.addEventListener('click', async ()=>{
-    await elegir("9")
-    await router()
-    await scroll()
-})
-let button10 = document.getElementById("bmenu-selected10") 
-button10.addEventListener('click', async ()=>{
-    await elegir("10")
-    await router()
-    await scroll()
-})
 
 
 function elegir(a){

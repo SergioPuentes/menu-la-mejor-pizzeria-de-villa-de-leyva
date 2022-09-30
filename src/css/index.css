@@ -20,13 +20,13 @@ section{
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: #ffffff;
 }
 .welcome{
     height: 100vh;
     display: grid;
     place-content: center;
     place-items: center;
-    background-color: white;
 }
 .welcome img{
     width: 70%;
@@ -38,17 +38,32 @@ section{
     font-weight: 700;
     color: #795a62;
 }
+.pan-arriba{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100rem;
+    background-color: #ffb325;
+    border-radius: 10rem;
+}
+.pan-arriba img{
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+.pan-arriba a{
+    margin: 0 auto;
+}
 .title-span{
     text-align: center;
 }
 .welcome a{
     margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     border-radius: 8px;
     width: 10rem;
     padding:0.7rem;
-    color: #c48200;
-    border: #c48200 solid 3px;
+    color: #070500;
+    border: #000000 solid 3px;
     text-decoration: none;
     text-align: center;
     font-size: 2.5rem;
@@ -112,21 +127,41 @@ section{
 }
 .menu{
     margin-top: 5rem;
+    margin-bottom: 12rem;
     width: 70%;
-    max-width: 60rem;
+    max-width: 90rem;
     display: grid;
     place-content: center;
-    grid-template-columns: repeat(auto-fill, 10rem);
-    gap: 3rem;
+    grid-template-columns: repeat(auto-fill, 18rem);
+    gap: 5rem;
+}
+.update{
+    width: 100%;
+    text-align: center;
+}
+.lechuga{
+    margin-top: 0rem;
+    text-align: center;
+    border-radius: 2rem;
+    width: 90%;
+    max-width: 90rem;
+    background-color: rgb(76, 218, 76);
+}
+.lechuga h3{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 .item{
-    width: 10rem;
-    height: 10rem;
+    height: 8rem;
     font-size: 2.2rem;
     display: grid;
     place-content: center;
     font-family: 'Satisfy', cursive;
     color: black;
+    background-color: rgb(175, 0, 0);
+    width: 18rem;
+    margin: 0 auto;
+    border-radius: 8rem;
 }
 .item a:hover{
     color: black;
@@ -158,8 +193,8 @@ section{
     display:flex ;
     background-image: linear-gradient(
     100deg,
-    #ffc451 0%,
-    #42272e 100%
+    #79633a 0%,
+    #5f4e2b 100%
     );
     border-radius: 32px;
 }
@@ -178,6 +213,12 @@ section{
 .item a span{
     font-size:1.8rem ;
 }
+.queso{
+    max-width: 80rem;
+    width: 85%;
+    background-color: #ffb82a;
+    border-radius: 1rem;
+}
 .close-icon{
     width: 100%;
     margin-top: 3rem;
@@ -194,19 +235,20 @@ section{
 }
 .footer{
     padding-top: 10rem;
-    background-color: #42272e;
-    clip-path: polygon(0 100, 100% 0, 100% 100%, 0 100%);
-    background-image: linear-gradient(
-    100deg,
-    #6e6022 0%,
-    #42272e 100%
-    );
 }
 .container-footer{
     display: flex;
     justify-content: center;
     gap: 3rem;
     margin-bottom: 7rem;
+    width: 90%;
+    max-width: 90rem;
+    background-color: #ffb325;
+    border-radius: 8rem;
+}
+.social-media{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 button{
     background-color: transparent;

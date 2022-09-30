@@ -565,42 +565,6 @@ button4.addEventListener("click", async ()=>{
     await (0, _indexDefault.default)();
     await scroll();
 });
-let button5 = document.getElementById("bmenu-selected5");
-button5.addEventListener("click", async ()=>{
-    await elegir("5");
-    await (0, _indexDefault.default)();
-    await scroll();
-});
-let button6 = document.getElementById("bmenu-selected6");
-button6.addEventListener("click", async ()=>{
-    await elegir("6");
-    await (0, _indexDefault.default)();
-    await scroll();
-});
-let button7 = document.getElementById("bmenu-selected7");
-button7.addEventListener("click", async ()=>{
-    await elegir("7");
-    await (0, _indexDefault.default)();
-    await scroll();
-});
-let button8 = document.getElementById("bmenu-selected8");
-button8.addEventListener("click", async ()=>{
-    await elegir("8");
-    await (0, _indexDefault.default)();
-    await scroll();
-});
-let button9 = document.getElementById("bmenu-selected9");
-button9.addEventListener("click", async ()=>{
-    await elegir("9");
-    await (0, _indexDefault.default)();
-    await scroll();
-});
-let button10 = document.getElementById("bmenu-selected10");
-button10.addEventListener("click", async ()=>{
-    await elegir("10");
-    await (0, _indexDefault.default)();
-    await scroll();
-});
 function elegir(a) {
     let targetURL = "#menu-selected" + a;
     let newURL = document.createElement("a");
@@ -618,7 +582,7 @@ function scroll() {
 (0, _scrollRevealDefault.default)((0, _animations.targetElements), (0, _animations.defaultProps));
 (0, _tiltAnimationDefault.default)();
 
-},{"./routes/index":"3L9mC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../src/css/animation/animations":"kgazZ","../src/css/animation/scripts/scrollReveal":"lxJWf","../src/css/animation/scripts/tiltAnimation":"ii0zF"}],"3L9mC":[function(require,module,exports) {
+},{"./routes/index":"3L9mC","../src/css/animation/animations":"kgazZ","../src/css/animation/scripts/scrollReveal":"lxJWf","../src/css/animation/scripts/tiltAnimation":"ii0zF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3L9mC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getHash = require("../utils/getHash");
@@ -644,7 +608,7 @@ const router = async ()=>{
 };
 exports.default = router;
 
-},{"../utils/getHash":"cBXxo","../utils/resolveRoutes":"45qF6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../utils/getProduct":"leJS3","../components/nada":"5Pv0i"}],"cBXxo":[function(require,module,exports) {
+},{"../utils/getHash":"cBXxo","../utils/resolveRoutes":"45qF6","../utils/getProduct":"leJS3","../components/nada":"5Pv0i","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cBXxo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 const getHash = ()=>location.hash.slice(1).toLocaleLowerCase().split("*")[0] || "/";
@@ -772,7 +736,7 @@ const menu = async ()=>{
 };
 exports.default = menu;
 
-},{"../components/item":"klNFr","../products/entradas":"asvwq","../products/ensaladas":"ddM1b","../products/carnesPescadosYPicadas":"gEoRi","../products/platosTipicos":"2xGK2","../products/pastasYRaviolis":"lxKQQ","../products/pizzasYHamburguesas":"iHxj4","../products/menuInfantil":"cOWPo","../products/postres":"hcbve","../products/bebidas":"i4Bml","../products/bebidasCalientes":"f4vYM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../utils/getHash":"cBXxo","../components/nada":"5Pv0i"}],"klNFr":[function(require,module,exports) {
+},{"../utils/getHash":"cBXxo","../components/item":"klNFr","../products/entradas":"asvwq","../products/ensaladas":"ddM1b","../products/carnesPescadosYPicadas":"gEoRi","../products/platosTipicos":"2xGK2","../products/pastasYRaviolis":"lxKQQ","../products/pizzasYHamburguesas":"iHxj4","../products/menuInfantil":"cOWPo","../products/postres":"hcbve","../products/bebidas":"i4Bml","../products/bebidasCalientes":"f4vYM","../components/nada":"5Pv0i","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"klNFr":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 const returnItem = (data)=>{
@@ -1296,7 +1260,7 @@ function initScrollReveal(targetElements, defaultProps) {
 }
 exports.default = initScrollReveal;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","scrollreveal":"2exAg"}],"2exAg":[function(require,module,exports) {
+},{"scrollreveal":"2exAg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2exAg":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /*! @license ScrollReveal v4.0.9

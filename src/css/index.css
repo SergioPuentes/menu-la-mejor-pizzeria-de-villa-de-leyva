@@ -40,7 +40,7 @@ section{
     display: flex;
     flex-direction: column;
     height: auto;
-    min-width: 90%;
+    min-width: 100%;
     max-width: 90rem;
     background-color: #ffb325;
     border-radius: 10rem; 

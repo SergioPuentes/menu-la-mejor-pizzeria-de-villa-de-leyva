@@ -15,7 +15,6 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
 }
 section{
     width: 100%;
@@ -40,12 +39,12 @@ section{
     display: flex;
     flex-direction: column;
     height: auto;
-    min-width: 100%;
+    width: 90%;
     max-width: 90rem;
     background-color: #ffb325;
     border-radius: 10rem; 
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 .pan-arriba img{
     margin: 0 auto;

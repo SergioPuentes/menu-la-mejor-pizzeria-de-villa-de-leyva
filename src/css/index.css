@@ -42,7 +42,9 @@ section{
     width: 90%;
     max-width: 90rem;
     background-color: #ffb325;
-    border-radius: 10rem;
+    border-radius: 10rem; 
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 .pan-arriba img{
     margin: 0 auto;

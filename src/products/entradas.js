@@ -1,28 +1,28 @@
 const entradas = [
     {
-        name:"Ceviche de camarones con coco",
-        ingredients:"",
-        price:21000
+        name:"Pizza Margarita",
+        ingredients:"Queso mozzarella, albahaca fresca, salsa napolitana, oregano, tomate, pimienta negra y aceite de oliva virgen extra",
+        price:"12.500 (Personal) || 20.000(Pequeña) || 33.000(Mediana) || 44.000(Grande)"
     },
     {
-        name:"Morcillitas Club a la parrilla",
-        ingredients:"bañadas en cebolla caramelizada y acompañadas con papa casco",
-        price:19500
+        name:"Pizza Napolitana ",
+        ingredients:"Queso mozzarella, salsa napolitana, ajo, aceitunas, perejil y tomate",
+        price:"12.500 (Personal) || 20.000(Pequeña) || 33.000(Mediana) || 44.000(Grande)"
     },
     {
-        name:"Chicharrones al Horno",
-        ingredients:"acompañados con yuca al vapor y hogao o envuelto de mazorca",
-        price:24000
+        name:"Pizza Hawaiana",
+        ingredients:"Queso mozzarella, piña dulce, jamon fresco y salsa napolitana",
+        price:"12.500 (Personal) || 20.000(Pequeña) || 33.000(Mediana) || 44.000(Grande)"
     },
     {
-        name:"Chorizo San Pedro",
-        ingredients:"Chorizo de cerdo artesanal 100% colombiano (bajo en grasa y sin conservantes), acompañado de papa criolla, ají casero y cascos de limón",
-        price:19500
+        name:"Pizza Pollo y Champiñones",
+        ingredients:"Queso mozzarella, salsa napolitana, pollo y champiñones freidos",
+        price:"12.500 (Personal) || 20.000(Pequeña) || 33.000(Mediana) || 44.000(Grande)"
     },
     {
-        name:"Sopa del día",
-        ingredients:"(sin acompañamiento)",
-        price:12000
+        name:"Pizza de Carnes",
+        ingredients:"Queso mozzarella, salsa napolitana, salami, salchicha y chorizo vela",
+        price:"12.500 (Personal) || 20.000(Pequeña) || 33.000(Mediana) || 44.000(Grande)"
     }
 ]
 module.exports = entradas

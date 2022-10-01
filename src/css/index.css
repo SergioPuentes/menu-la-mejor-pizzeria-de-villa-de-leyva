@@ -127,8 +127,8 @@ section{
     font-weight: 500;
 }
 .menu{
-    margin-top: 5rem;
-    margin-bottom: 12rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
     width: 70%;
     max-width: 90rem;
     display: grid;

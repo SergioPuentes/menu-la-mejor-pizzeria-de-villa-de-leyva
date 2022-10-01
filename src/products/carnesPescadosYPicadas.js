@@ -17,7 +17,7 @@ const carnesPescadosYPicadas = [
     {
         name:"Combo para hamburguesa",
         ingredients:"papas a la francesa y bebida gaseosa personal",
-        price:5500
+        price:6000
     },
 ]
 module.exports = carnesPescadosYPicadas;

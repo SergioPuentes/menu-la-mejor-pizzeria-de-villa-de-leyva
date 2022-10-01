@@ -15,16 +15,16 @@ let title = ""
 const data = ()=>{
     let hash = getHash()
     if(hash == "menu-selected1"){
-        title = "Entradas"
+        title = "Pizzas"
         return entradas
     }else if(hash == "menu-selected2"){
-        title = "Ensaladas"
+        title = "Hamburguesas"
         return ensaladas
     }else if(hash == "menu-selected3"){
-        title = "Carnes, Pescados y Picadas"
+        title = "Adiciones"
         return carnesPescadosYPicadas
     }else if(hash == "menu-selected4"){
-        title = "Platos Tipicos (Fines de semana)"
+        title = "Bebidas"
         return platosTipicos
     }else if(hash == "menu-selected5"){
         title = "Pastas y Raviolis"

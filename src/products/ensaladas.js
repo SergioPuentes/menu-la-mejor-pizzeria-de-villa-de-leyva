@@ -1,13 +1,18 @@
 const ensaladas = [
     {
-        name:"Ensalada de la Casa con Pollo",
-        ingredients:"Pollo en julianas, lechuga crespa, crotones, maiz tierno, champiñon, parmesano y vinagreta de la casa",
-        price:25000
+        name:"Hamburguesa Clasica",
+        ingredients:"Carne de res (160g), queso mozzarella, tomate, cebolla caramelizada y lechuga",
+        price:9500
     },
     {
-        name:"Ensalada Mediterránea",
-        ingredients:"Mezclun de lechugas, tomates cherry, queso mozzarella, espinaca, champiñones, mix de mariscos salteados y crotones",
-        price:32000
+        name:"Hamburguesa de la Casa",
+        ingredients:"Carne de res (160g), queso mozzarella, tomate, cebolla caramelizada, lechuga, tocineta, jamon y salsa de la casa",
+        price:13000
+    },
+    {
+        name:"Hamburguesa Clasica Doble",
+        ingredients:"Doble porcion de carne de res (160g/cu), queso mozzarella, tomate, cebolla caramelizada, lechuga y tocineta",
+        price:14000
     }
 ]
 module.exports = ensaladas;

@@ -39,7 +39,7 @@ section{
 .pan-arriba{
     display: flex;
     flex-direction: column;
-    max-height: 80%;
+    height: auto;
     width: 90%;
     max-width: 90rem;
     background-color: #ffb325;

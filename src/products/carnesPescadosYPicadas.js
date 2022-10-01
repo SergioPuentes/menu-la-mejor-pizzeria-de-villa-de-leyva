@@ -7,7 +7,7 @@ const carnesPescadosYPicadas = [
     {
         name:"Salsa de la casa",
         ingredients:"Tocineta bañada en salsa de champiñones",
-        price:48000
+        price:3500
     },
     {
         name:"Queso extra",

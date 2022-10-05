@@ -79,6 +79,7 @@ section{
     flex-wrap: wrap;
     flex-direction: column;
     background-color: #ffb325;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 #specialty .info-container{
     padding-bottom: 12rem;
@@ -234,6 +235,8 @@ section{
 }
 .footer{
     padding-top: 10rem;
+    clip-path: polygon(0 100, 100% 0, 100% 100%, 0 100%);
+    background-color: #ffb325;
 }
 .container-footer{
     display: flex;
@@ -242,7 +245,6 @@ section{
     margin-bottom: 7rem;
     width: 90%;
     max-width: 72rem;
-    background-color: #ffb325;
     border-radius: 8rem;
 }
 .social-media{

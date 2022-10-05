@@ -218,13 +218,13 @@ section{
 .footer{
     clip-path: polygon(0 100, 100% 0, 100% 100%, 0 100%);
     background-color: #ffb325;
-    padding-top: 3rem;
 }
 .container-footer{
     display: flex;
     justify-content: center;
     gap: 3rem;
     margin-bottom: 3rem;
+    margin-top: 3rem;
     width: 90%;
     max-width: 72rem;
     border-radius: 8rem;

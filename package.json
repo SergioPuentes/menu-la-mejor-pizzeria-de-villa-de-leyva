@@ -2,7 +2,7 @@
   "name": "lamejorpizzeriadevilladeleyva",
   "version": "1.0.0",
   "description": "Menu Casa San Pedro Campestre",
-  "source": "dist/index.html",
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"

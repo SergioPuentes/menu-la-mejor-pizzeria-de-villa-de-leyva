@@ -78,6 +78,7 @@ section{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    background-color: #ffb325;
 }
 #specialty .info-container{
     padding-bottom: 12rem;
@@ -146,7 +147,6 @@ section{
     border-radius: 2rem;
     width: 90%;
     max-width: 72rem;
-    background-color: rgb(76, 218, 76);
 }
 .lechuga h3{
     margin-top: 1rem;
@@ -159,7 +159,6 @@ section{
     place-content: center;
     font-family: 'Satisfy', cursive;
     color: black;
-    background-color: rgb(175, 0, 0);
     width: 18rem;
     margin: 0 auto;
     border-radius: 8rem;
@@ -217,7 +216,6 @@ section{
 .queso{
     max-width: 80rem;
     width: 85%;
-    background-color: #ffb82a;
     border-radius: 1rem;
 }
 .close-icon{

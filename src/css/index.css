@@ -129,6 +129,9 @@ section{
     font-size: 5rem;
     font-weight: 500;
 }
+.specialty-div{
+    margin-bottom: 1rem;
+}
 .menu{
     margin-top: 2rem;
     margin-bottom: 5rem;
@@ -219,7 +222,6 @@ section{
     max-width: 80rem;
     width: 85%;
     border-radius: 1rem;
-    margin-bottom: 8rem;
 }
 .close-icon{
     width: 100%;

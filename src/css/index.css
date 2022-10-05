@@ -219,6 +219,7 @@ section{
     max-width: 80rem;
     width: 85%;
     border-radius: 1rem;
+    margin-bottom: 3rem;
 }
 .close-icon{
     width: 100%;

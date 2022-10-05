@@ -229,6 +229,11 @@ section{
     max-width: 72rem;
     border-radius: 8rem;
 }
+.container-footer a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .social-media{
     margin-bottom: 5rem;
 }

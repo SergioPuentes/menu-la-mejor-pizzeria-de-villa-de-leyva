@@ -218,6 +218,7 @@ section{
 .footer{
     clip-path: polygon(0 100, 100% 0, 100% 100%, 0 100%);
     background-color: #ffb325;
+    padding-top: 3rem;
 }
 .container-footer{
     display: flex;
@@ -229,7 +230,6 @@ section{
     border-radius: 8rem;
 }
 .social-media{
-    margin-top: 5rem;
     margin-bottom: 5rem;
 }
 button{

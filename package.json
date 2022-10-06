@@ -1,5 +1,5 @@
 {
-  "name": "casasanpedro",
+  "name": "lamejorpizzeriadevilladeleyva",
   "version": "1.0.0",
   "description": "Menu Casa San Pedro Campestre",
   "source": "src/index.html",
@@ -10,8 +10,8 @@
   "author": "@https://github.com/SergioPuentes",
   "license": "MIT",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.2",
-    "parcel": "^2.6.2"
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.5",

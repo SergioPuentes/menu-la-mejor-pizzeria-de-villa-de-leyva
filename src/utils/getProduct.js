@@ -8,9 +8,8 @@ import pastasYRaviolis from "../products/pastasYRaviolis"
 import pizzasYHamburguesas from "../products/pizzasYHamburguesas"
 import menuInfantil from "../products/menuInfantil"
 import postres from "../products/postres"
-import bebidas from "../products/bebidas"
+
 import bebidasCalientes from "../products/bebidasCalientes"
-import nada from "../components/nada"
 let title = ""
 const data = ()=>{
     let hash = getHash()
@@ -38,9 +37,6 @@ const data = ()=>{
     }else if(hash == "menu-selected8"){
         title = "Postres"
         return postres
-    }else if(hash == "menu-selected9"){
-        title = "Bebidas"
-        return  bebidas
     }else if(hash=="menu-selected10"){
         title = "Bebidas Calientes"
         return bebidasCalientes

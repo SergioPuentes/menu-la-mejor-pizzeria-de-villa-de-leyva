@@ -8,7 +8,6 @@ import pastasYRaviolis from "../products/pastasYRaviolis"
 import pizzasYHamburguesas from "../products/pizzasYHamburguesas"
 import menuInfantil from "../products/menuInfantil"
 import postres from "../products/postres"
-
 import bebidasCalientes from "../products/bebidasCalientes"
 let title = ""
 const data = ()=>{

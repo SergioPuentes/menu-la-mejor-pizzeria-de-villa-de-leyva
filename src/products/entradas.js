@@ -32,7 +32,7 @@ const entradas = [
     {
         name:"Pizza Campesina",
         ingredients:"Queso mozzarella, salsa napolitana, maiz, tocineta",
-        price:"16.000 (Pequeña) || 31.000 (Mediana) || 42.000(Grande)"
+        price:"18.500 (Pequeña) || 31.000 (Mediana) || 42.000(Grande)"
     },
 //    {
 //        name:"Pizza de la Casa",

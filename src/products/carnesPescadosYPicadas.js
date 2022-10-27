@@ -1,6 +1,6 @@
 const carnesPescadosYPicadas = [
     {
-        name:"Porcion de papas a la francesa",
+        name:"Porcion de papas",
         ingredients:"",
         price:4000
     },
@@ -12,7 +12,7 @@ const carnesPescadosYPicadas = [
     {
         name:"Queso extra",
         ingredients:"",
-        price:2500
+        price:1500
     },
     {
         name:"Combo para hamburguesa",

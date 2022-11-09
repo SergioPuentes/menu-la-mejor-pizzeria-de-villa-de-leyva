@@ -28,6 +28,12 @@ button4.addEventListener('click', async ()=>{
     await router()
     await scroll()
 })
+let button5 = document.getElementById("bmenu-selected5") 
+button5.addEventListener('click', async ()=>{
+    await elegir("5")
+    await router()
+    await scroll()
+})
 
 
 function elegir(a){

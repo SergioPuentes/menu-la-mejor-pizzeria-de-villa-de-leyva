@@ -8,26 +8,29 @@ import pastasYRaviolis from "../products/pastasYRaviolis"
 import pizzasYHamburguesas from "../products/pizzasYHamburguesas"
 import menuInfantil from "../products/menuInfantil"
 import postres from "../products/postres"
-import bebidas from "../products/bebidas"
-import bebidasCalientes from "../products/bebidasCalientes"
-import nada from "../components/nada"
 let title = ""
+let subTitle = ""
 const data = ()=>{
     let hash = getHash()
     if(hash == "menu-selected1"){
         title = "Pizzas"
+        subTitle = "19.000 (Pequeña) || 32.000 (Mediana) || 43.000(Grande)"
         return entradas
     }else if(hash == "menu-selected2"){
+        subTitle = ""
         title = "Hamburguesas"
         return ensaladas
     }else if(hash == "menu-selected3"){
+        subTitle = ""
         title = "Adiciones"
         return carnesPescadosYPicadas
     }else if(hash == "menu-selected4"){
         title = "Bebidas"
+        subTitle = ""
         return platosTipicos
     }else if(hash == "menu-selected5"){
-        title = "Pastas y Raviolis"
+        title = "Hot Dogs"
+        subTitle = ""
         return pastasYRaviolis
     }else if(hash == "menu-selected6"){
         title = "Pizzas y Hamburguesas"
@@ -52,7 +55,8 @@ const menu = async ()=>{
                 <div class="item-container">
                 <div class="close-icon"><a href="/#specialty"><img rel="icon" src="https://icon-library.com/images/svg-close-icon/svg-close-icon-4.jpg" width="20px"></a></div>
         <div>
-        <h2>${title}</h2>
+        <h1  class="title-menu-selected">${title}</h1>
+        <h2>${subTitle}</h2>
         <div>
         ${info.map(item =>returnItem(item))}
         </div>

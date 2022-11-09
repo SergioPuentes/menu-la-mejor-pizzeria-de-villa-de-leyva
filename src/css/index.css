@@ -45,6 +45,7 @@ section{
     border-radius: 10rem; 
     margin-top: 3rem;
     margin-bottom: 3rem;
+    border: #000000 solid ;
 }
 .pan-arriba img{
     margin: 0 auto;
@@ -79,12 +80,13 @@ section{
     flex-wrap: wrap;
     flex-direction: column;
     background-color: #ffb325;
-    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     padding-bottom: 12rem;
     padding-top: 1rem;
     align-items: center;
     width: 100%;
-}
+    border-top: #000000 solid;
+    border-bottom: #000000 solid;
+} 
 #specialty .info-container{
     background-image: linear-gradient(
     135deg,
@@ -163,9 +165,13 @@ section{
 .item-container{
     width: 100%;
 }
-.item-container h2{
-    font-size: 4rem;
+.item-container h1{
+    font-size: 5rem;
     margin-bottom: 5rem;
+}
+.item-container h2{
+    font-size: 2.5rem;
+    margin-bottom: 8rem;
 }
 .menu-selected{
     margin-top: 3rem;
@@ -180,6 +186,7 @@ section{
     #5f4e2b 100%
     );
     border-radius: 32px;
+    border: #000000 solid;
 }
 .menu-selected div{
     width: 100%;
@@ -187,6 +194,10 @@ section{
     flex-direction: column;
     text-align: center;
 }
+.title-menu-selected{
+    font-family: Satisfy, cursive;
+}
+
 .item a{
     text-decoration: none;
     color: black;
@@ -216,21 +227,35 @@ section{
     margin-right: 3rem;
 }
 .footer{
-    clip-path: polygon(0 100, 100% 0, 100% 100%, 0 100%);
+    border-top: #000000 solid;
     background-color: #ffb325;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    padding-top: 2rem;
+}
+.footer div h2{
+    font-size: 3rem;
 }
 .container-footer{
     display: flex;
     justify-content: center;
     gap: 3rem;
-    margin-top: 8rem;
-    width: 90%;
+    margin-top: 1rem;
+    padding: 1rem;
+    max-height: 8rem;
+    width: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
     max-width: 72rem;
     border-radius: 8rem;
+    background-color: #79602e;
+    margin-bottom: 3rem;
+    border: #000000 solid;
 }
 .container-footer a {
     display: flex;
-    flex-direction: column; 
     color: black;
     text-decoration: none;
 }

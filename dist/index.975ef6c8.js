@@ -718,12 +718,6 @@ const data = ()=>{
     } else if (hash == "menu-selected8") {
         title = "Postres";
         return 0, _postresDefault.default;
-    } else if (hash == "menu-selected9") {
-        title = "Bebidas";
-        return bebidas;
-    } else if (hash == "menu-selected10") {
-        title = "Bebidas Calientes";
-        return bebidasCalientes;
     }
 };
 const menu = async ()=>{
@@ -829,7 +823,7 @@ module.exports = ensaladas;
 },{}],"gEoRi":[function(require,module,exports) {
 const carnesPescadosYPicadas = [
     {
-        name: "Porcion de papas a la francesa",
+        name: "Porcion de papas",
         ingredients: "",
         price: 4000
     },
@@ -841,7 +835,7 @@ const carnesPescadosYPicadas = [
     {
         name: "Queso extra",
         ingredients: "",
-        price: 2500
+        price: 1500
     },
     {
         name: "Combo para hamburguesa",

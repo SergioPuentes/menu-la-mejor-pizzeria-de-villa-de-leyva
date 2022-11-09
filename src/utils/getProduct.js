@@ -41,12 +41,6 @@ const data = ()=>{
     }else if(hash == "menu-selected8"){
         title = "Postres"
         return postres
-    }else if(hash == "menu-selected9"){
-        title = "Bebidas"
-        return  bebidas
-    }else if(hash=="menu-selected10"){
-        title = "Bebidas Calientes"
-        return bebidasCalientes
     }
 }
 const menu = async ()=>{

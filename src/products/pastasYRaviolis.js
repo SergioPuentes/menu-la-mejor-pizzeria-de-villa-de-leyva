@@ -12,7 +12,7 @@ const pastasYRaviolis = [
     {
         name:"Perro caliente Ranchero",
         ingredients:"Salchicha, queso mozarrella, papas chip, tocineta, maiz dulce",
-        price:45000
+        price:12000
     }
 ]
 module.exports = pastasYRaviolis
